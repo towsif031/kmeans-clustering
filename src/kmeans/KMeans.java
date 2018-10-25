@@ -14,4 +14,5 @@ public class KMeans {
         String outputPathPrefix = "D:\\KmeansClustering\\Datasets\\90_10\\";
         DistanceCalculate dc = new DistanceCalculate(pathPrefix, inputPathPrefix, outputPathPrefix);
         dc.takeData();
+        dc.distanceCalculator();
 }
